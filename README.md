@@ -140,7 +140,7 @@ example:
 Or to include an individual module:
 
 	{% load assets %}
-	{% assets "jquip.core" %}
+	{% assets "jquip.core" "jquip.css" %}
 		<script type="text/javascript" src="{{ ASSET_URL }}"></script>
 	{% endassets %}
 
@@ -158,6 +158,10 @@ repetition in your templates:
 		output='js/all.js')
 
 	register('all_js', all_js)
+
+> *Note:* if you want to use the `jsmin` filter as shown in the example above,
+> you'll need to install the `jsmin` package in your Python environment or
+> `virtualenv`, much as you did with `pyquip` itself.
 
 Then you can include all your jQuip modules, and your own code, in one go,
 by including a single file in your templates:
