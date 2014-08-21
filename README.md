@@ -2,6 +2,8 @@
 
 Simple installation and django-assets for jQuip.
 
+[![Build Status on Travis](https://travis-ci.org/aptivate/pyquip.svg?branch=master)](https://travis-ci.org/aptivate/pyquip)
+
 ## Purpose
 
 [jQuip](https://github.com/mythz/jquip) is a lightweight alternative to
