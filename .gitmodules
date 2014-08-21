@@ -1,3 +1,0 @@
-[submodule "pyquip/static/js/jquip"]
-	path = pyquip/static/js/jquip
-	url = https://github.com/mythz/jquip.git
